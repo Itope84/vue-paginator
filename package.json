@@ -1,6 +1,6 @@
 {
   "name": "@itope84/vue-paginator",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -60,5 +60,12 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "pagination",
+    "paginator",
+    "bootstrap pagination"
   ]
 }
