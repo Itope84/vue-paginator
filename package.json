@@ -1,6 +1,6 @@
 {
   "name": "@itope84/vue-paginator",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/itope84/vue-paginator.git"
   },
+  "license": "MIT",
   "files": [
     "dist/*",
     "src/*",

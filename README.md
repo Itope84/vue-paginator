@@ -1,4 +1,5 @@
 # @itope84/vue-paginator
+![npm](https://img.shields.io/npm/dt/@itope84/vue-paginator.svg) ![npm bundle size](https://img.shields.io/bundlephobia/min/@itope84/vue-paginator.svg) ![NPM](https://img.shields.io/npm/l/@itope84/vue-paginator.svg)
 
 ## Install
 ```bash
