@@ -1,5 +1,5 @@
 Command line:
-"travis encrypt c01a93df-4c6d-4175-8958-44c5e9c82106 --add deploy.api_key"
+"travis setup npm"
 
 
    ________                                 __
@@ -24,7 +24,7 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on Santiago at Thu Jun 20 15:26:07 2019 (PID 478).
+  #  Running on Santiago at Thu Jun 20 15:21:02 2019 (PID 32465).
   #  Running in /home/santiago/projects/vue-paginator
   #  Code version: Aug 12 2017, compiled at Jan 14 2018 01:39:14, compiler "7.2.0", GCC 7.2.0
   #  Target platform: Linux, compile flags: DEBUG_ARRAYS 
@@ -34,10 +34,10 @@ Command line:
 
  >>> Please use a color scheme with dark background or specify "-nocolor"! <<<
 
-    Loading configuration from /home/santiago/.travis.conf ...
+    No configuration file found.
+    Writing default configuration to /home/santiago/.travis.conf ...
 
-[Renaming existing File input.txt to #1#input.txt ...OK.]
-Unknown parameter: "encrypt".
+Unknown parameter: "setup".
 
     List of supported command line options:
 

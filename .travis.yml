@@ -1,12 +1,15 @@
 language: node_js
 node_js:
-  - 9
-cache: 
-  directories: 
-    - node_modules
+- 9
+cache:
+  directories:
+  - node_modules
 script:
-  - npm run test:unit
+- npm run test:unit
 deploy:
   provider: npm
-  email: "topephysics@gmail.com"
-  api_key: "c01a93df-4c6d-4175-8958-44c5e9c82106"
+  email: topephysics@gmail.com
+  api_key:
+    secure: nZ8pwZ3k2jZehZ/CIwSDXEEDwfgsDDUUqdllkGxeItZS37K6hv1U9Ey1552qWxgaNQudOq8uQcOBk8VumyMtjtetM7loNzzE3zH5pm9iBRl92kEfM62ce+88VNWHW102sYIKMMwPItAQWId0xRdbXHCNY9ygogiUqXzzCC/8YXSqCRX/K8Alm2m6qB4HQFVX4k5BJY5Fw39D3gcZ5VaNTbjwMoPUT7Y7QMTjZjHR8nPcvkh208QXKSGdsEwogbk5TjJOrgwCvvZnclCO4R3dB/q2SEyxuc9HLBhyBLfCiJ4PJmOorOJhdQ0VO71tgKuHVxwRqzPIbJTkDTi76eCH5AnTUGquee+GZMnIazJZ0O3sM4JCvcgrDWQI8XyzSKpxnNhGMcnESM7t8ySSGFYnRBBmCAk2Zr4Mma9t1lSxkVJXnR8D+cD85PwsQ1VdN3QlWnA4J/Q7T2MFgPj3o/D1MVb6EdWy65z6r1yWU/4Jxyi2C/FoYpU8DOjDpwSkaF3y9vOZf9BHcc/pG3uDJoSSBmFm3FJKqsJpEsOk5U76qXSeru7E2ngfyol+Zco/lpoqyZfbPDEZQ51ZDJzoZPon0ZiDoe3GI7d9l/ljJFkJrb78VMRbZNdmFhsE2ld5xy/DZg0bwm0y3AdS63M47wC7PWRwbN0+ylUvwBTnEfzZUcw=
+    on:
+      branch: master
