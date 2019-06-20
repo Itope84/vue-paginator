@@ -5,7 +5,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit --watch",
+    "test:unit": "vue-cli-service test:unit",
     "build-bundle": "vue-cli-service build --target lib --name vuejs-paginator ./src/App.vue"
   },
   "main": "./dist/vuejs-paginator.umd.min.js",
