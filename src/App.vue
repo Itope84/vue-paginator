@@ -8,11 +8,9 @@
     >
       <!---->
       <li role="none presentation" aria-hidden="true" class="page-item" :class="{'disabled': value === 1}">
-        <span
-          role="menuitem"
-          aria-label="Go to previous page"
+        <span role="menuitem"
           v-if="value === 1"
-          :aria-disabled="true"
+          aria-disabled="true"
           class="page-link"
         >Prev</span>
 
