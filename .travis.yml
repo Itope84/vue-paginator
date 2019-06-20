@@ -6,3 +6,7 @@ cache:
     - node_modules
 script:
   - npm run test:unit
+deploy:
+  provider: npm
+  email: "topephysics@gmail.com"
+  api_key: "c01a93df-4c6d-4175-8958-44c5e9c82106"

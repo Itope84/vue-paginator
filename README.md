@@ -1,5 +1,5 @@
 # @itope84/vue-paginator
-![npm](https://img.shields.io/npm/dt/@itope84/vue-paginator.svg) ![npm bundle size](https://img.shields.io/bundlephobia/min/@itope84/vue-paginator.svg) ![NPM](https://img.shields.io/npm/l/@itope84/vue-paginator.svg)
+![npm](https://img.shields.io/npm/dt/@itope84/vue-paginator.svg) ![npm bundle size](https://img.shields.io/bundlephobia/min/@itope84/vue-paginator.svg) ![NPM](https://img.shields.io/npm/l/@itope84/vue-paginator.svg) ![Travis (.org)](https://img.shields.io/travis/Itope84/vue-paginator.svg)
 
 ## Install
 ```bash
@@ -28,24 +28,24 @@ components {
 ## Props:
 
 ### pageCount:
-**type:** Number
-**required**
+**type:** Number  
+**required**  
 Specifies the total number of pages we have
 
 ### onEachSide:
-**type:** Number
-**optional**
-**default:** 2
+**type:** Number  
+**optional**  
+**default:** 2  
 Specifies the total number of items on each side of the active item before the divider
 
 ### v-model
-**type:** Number
-**required**
+**type:** Number  
+**required**  
 We need to model this to the current page in your component. Technically, this is the value prop :-)
 
 ### clickHandler
-**type:** Function
-**required**
+**type:** Function  
+**required**  
 Handles what happens when you click on a page. Upon clicking on a link, this function is called and a single argument (page) is passed into it.
 
 ## Todo
